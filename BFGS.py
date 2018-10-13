@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Jul 17 16:52:22 2017
-
-@author: Lenovo-Y430p
-"""
 from __future__ import division
 import numpy as np
 import matplotlib.pyplot as plt

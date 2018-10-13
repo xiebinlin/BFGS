@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Jul 15 14:22:32 2017
 
-@author: Lenovo-Y430p
-"""
 from numpy import *
 import matplotlib.pyplot as plt
 import math
@@ -94,7 +90,7 @@ def stocGradAscent2(x, y, theta, alpha):
             del(dataIndex[randIndex])
     return theta
 if __name__=='__main__':
-   x,y=loaddata('E:\下载\machine-learning-ex-master\machine-learning-ex2\ex2\ex2data1.txt')
+   x,y=loaddata('C:\Users\msi\Desktop\lr-master\ex2data1.txt')
    m,n = shape(x)
    theta= mat(ones(n))
    t=stocGradAscent2(x, y, theta, alpha=1)
